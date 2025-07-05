@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: spring-ai-examples-hello
+
+  ai:
+    openai:
+      api-key: <OPEN-AI-API_KEY>
+      chat:
+        options:
+          model: gpt-4o-mini
